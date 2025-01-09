@@ -81,7 +81,7 @@ namespace Zadania
             Games = game;
         }
         public Game Games { private get; set; }
-        public void Games()
+        public void Play()
         {
             Games.Play();
         }
